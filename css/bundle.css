@@ -1,0 +1,401 @@
+.header.svelte-jjy36c.svelte-jjy36c {
+    height: 45vh;
+    width: 70%;
+    max-width: 1940px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 4rem
+}
+
+.header-bg.svelte-jjy36c.svelte-jjy36c {
+    position: relative;
+    color: white;
+    overflow: hidden
+}
+
+.mascot.svelte-jjy36c.svelte-jjy36c {
+    height: 20vh;
+    width: 100%;
+    object-fit: contain
+}
+
+@media only screen and (max-width: 1215px) and (min-width: 630px) {
+    .mascot.svelte-jjy36c.svelte-jjy36c {
+        width: 15%;
+        height: auto;
+        padding-bottom: 3rem !important
+    }
+}
+
+@media only screen and (max-width: 630px) {
+    .mascot.svelte-jjy36c.svelte-jjy36c {
+        width: 35%;
+        height: auto;
+        padding-bottom: 0rem !important
+    }
+}
+
+.parallax-hero-banner.svelte-jjy36c.svelte-jjy36c {
+    background-image: url(../images/RobloxScreenShot20220924_202849503.png);
+    filter: brightness(0.2);
+    object-fit: cover;
+    height: 100%;
+    width: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1
+}
+
+@media only screen and (max-device-width: 1024px) {
+    @supports (-webkit-touch-callout: none) {
+
+        .parallax-hero-banner.svelte-jjy36c.svelte-jjy36c,
+        .jobs-parallax-bg.svelte-jjy36c.svelte-jjy36c {
+            background-attachment: scroll
+        }
+    }
+}
+
+.parallax-warrior-mascot.svelte-jjy36c.svelte-jjy36c {
+    background-image: url(../img/warrior_mascot_black.png);
+    height: 100%;
+    width: 100vw;
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 30%;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    right: 0
+}
+
+section.svelte-jjy36c.svelte-jjy36c {
+    overflow: hidden
+}
+
+.games-bg.svelte-jjy36c.svelte-jjy36c,
+.community-bg.svelte-jjy36c.svelte-jjy36c,
+.team-bg.svelte-jjy36c.svelte-jjy36c,
+.jobs-bg.svelte-jjy36c.svelte-jjy36c {
+    background-color: rgb(92, 92, 92);
+    position: relative;
+    z-index: 5
+}
+
+@media only screen and (max-device-width: 1024px) {
+
+    .games-bg.svelte-jjy36c.svelte-jjy36c,
+    .community-bg.svelte-jjy36c.svelte-jjy36c,
+    .team-bg.svelte-jjy36c.svelte-jjy36c,
+    .jobs-bg.svelte-jjy36c.svelte-jjy36c {
+        padding-top: 5rem !important;
+        padding-bottom: 5rem !important
+    }
+}
+
+.games-bg.svelte-jjy36c .text-logo.svelte-jjy36c {
+    margin-bottom: 10rem;
+    width: 50%
+}
+
+@media only screen and (max-width: 768px) {
+    .games-bg.svelte-jjy36c .text-logo.svelte-jjy36c {
+        margin-bottom: 6rem;
+        width: 75%
+    }
+}
+
+.games-bg.svelte-jjy36c .art-sketch-games.svelte-jjy36c {
+    position: absolute;
+    opacity: 0.4;
+    width: 30%;
+    left: -7%;
+    top: 5%;
+    z-index: -1;
+    filter: saturate(0.8);
+    transform: scaleX(-1)
+}
+
+.games-bg.svelte-jjy36c .game-card.svelte-jjy36c {
+    transition: 0.5s ease-in-out;
+    overflow: hidden;
+    color: white
+}
+
+.games-bg.svelte-jjy36c .game-card .card-content.svelte-jjy36c {
+    position: relative
+}
+
+.games-bg.svelte-jjy36c .game-card.svelte-jjy36c:hover {
+    opacity: 0.9
+}
+
+.games-bg.svelte-jjy36c .game-card .online-green.svelte-jjy36c {
+    color: #00c900;
+    margin-left: -0.2em
+}
+
+.games-bg.svelte-jjy36c .game-card .players-online.svelte-jjy36c {
+    font-size: 1.25rem
+}
+
+.games-bg.svelte-jjy36c .game-card .image-window.svelte-jjy36c {
+    min-height: 250px
+}
+
+.games-bg.svelte-jjy36c .game-card .bottombg.svelte-jjy36c {
+    background-color: black;
+    opacity: 0.8
+}
+
+.games-bg.svelte-jjy36c .game-stats.svelte-jjy36c {
+    padding-left: 0.75rem;
+    background-color: #272424;
+    color: white;
+    border-radius: 0px 0px 0.25rem 0.25rem;
+    margin: 0px !important
+}
+
+.games-bg.svelte-jjy36c .game-stats .game-stat-title.svelte-jjy36c {
+    opacity: 0.6
+}
+
+.games-bg.svelte-jjy36c .card.svelte-jjy36c {
+    border-radius: 0.25rem 0.25rem 0px 0px !important
+}
+
+.games-bg.svelte-jjy36c .bedwars-card.svelte-jjy36c::before {
+    content: " ";
+    background-image: linear-gradient(3deg, rgba(0, 0, 0, 0.5) 30%, rgba(255, 255, 255, 0) 60%), url(../images/Thumbnail1.png);
+    filter: saturate(1.5);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.5s;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%
+}
+
+.games-bg.svelte-jjy36c .islands-card.svelte-jjy36c::before {
+    content: " ";
+    background-image: linear-gradient(3deg, rgba(0, 0, 0, 0.5) 30%, rgba(255, 255, 255, 0) 60%), url("../img/flowers.png");
+    filter: saturate(1.3);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.5s;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%
+}
+
+.games-bg.svelte-jjy36c .game-card.svelte-jjy36c:hover::before {
+    transform: scale(1.05)
+}
+
+.community-bg.svelte-jjy36c.svelte-jjy36c {
+    background: #eeeeee;
+    z-index: 2
+}
+
+.community-bg.svelte-jjy36c .art-sketch-community.svelte-jjy36c {
+    position: absolute;
+    opacity: 0.4;
+    width: 30%;
+    right: -5%;
+    bottom: -10%;
+    z-index: -1;
+    filter: saturate(0.8)
+}
+
+.jobs-bg.svelte-jjy36c.svelte-jjy36c {
+    color: white
+}
+
+.jobs-bg.svelte-jjy36c .jobs-parallax-bg.svelte-jjy36c {
+    background-image: url(../img/bedwars_bg.png);
+    filter: brightness(0.2);
+    height: 100%;
+    width: 100vw;
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.team-bg.svelte-jjy36c .art-sketch-team.svelte-jjy36c {
+    position: absolute;
+    opacity: 0.4;
+    width: 30%;
+    left: -7%;
+    bottom: -5%;
+    z-index: -1;
+    filter: saturate(2);
+    transform: scaleX(-1)
+}
+
+.team-bg.svelte-jjy36c .team-grid.svelte-jjy36c {
+    max-width: 700px;
+    margin: 0 auto
+}
+
+.team-bg.svelte-jjy36c .team-member-avatar.svelte-jjy36c {
+    margin-bottom: 5px;
+    flex: auto
+}
+
+.team-bg.svelte-jjy36c .team-member-avatar img.svelte-jjy36c {
+    height: 128px;
+    width: 128px;
+    display: inline
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    .team-bg.svelte-jjy36c .team-member-avatar img.svelte-jjy36c {
+        height: 96px;
+        width: 96px
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .team-bg.svelte-jjy36c .team-member-avatar img.svelte-jjy36c {
+        height: 76px;
+        width: 76px
+    }
+}
+
+.bottom-bg.svelte-jjy36c.svelte-jjy36c {
+    background-color: black;
+    color: white
+}
+
+.bottom-bg.svelte-jjy36c .bottom-logo.svelte-jjy36c {
+    height: 148px
+}
+
+.bottom-bg.svelte-jjy36c .copyright.svelte-jjy36c {
+    font-weight: 100;
+    opacity: 0.7
+}
+
+.section-title-container.svelte-jjy36c .divider.svelte-jjy36c {
+    margin: auto;
+    background-color: #e4e4e4;
+    height: 2px;
+    padding: 0px
+}
+
+.section-title-container.svelte-jjy36c .section-title.svelte-jjy36c {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #0d7dd9;
+    font-size: 1.25rem
+}
+
+.metric.svelte-jjy36c.svelte-jjy36c {
+    min-height: 300px;
+    color: black
+}
+
+.metric-1.svelte-jjy36c.svelte-jjy36c {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    z-index: 1
+}
+
+.metric-1.svelte-jjy36c .title.svelte-jjy36c {
+    font-size: 5rem !important
+}
+
+.metric-1.svelte-jjy36c.svelte-jjy36c::after {
+    content: "";
+    background-image: url("../img/easy_mascot_black.png");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: 5%;
+    overflow: hidden;
+    transform: rotate(30deg);
+    width: 200%;
+    height: 300%;
+    opacity: 0.075;
+    position: absolute;
+    z-index: -1
+}
+
+.metric-2.svelte-jjy36c.svelte-jjy36c {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    z-index: 1
+}
+
+.metric-2.svelte-jjy36c.svelte-jjy36c::after {
+    content: "";
+    background-image: url("../img/warrior_mascot_black.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.075;
+    width: 120%;
+    height: 200%;
+    bottom: -200px;
+    left: -150px;
+    bottom: 0;
+    right: -100px;
+    transform: rotate(160deg);
+    position: absolute;
+    z-index: -1
+}
+
+.metric-3.svelte-jjy36c.svelte-jjy36c {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    z-index: 1
+}
+
+.metric-3.svelte-jjy36c.svelte-jjy36c::after {
+    content: "";
+    background-image: url();
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200%;
+    opacity: 0.075;
+    transform: rotate(15deg);
+    width: 50%;
+    height: 150%;
+    top: 0px;
+    right: -70px;
+    position: absolute;
+    z-index: -1
+}
+
+.join-link.svelte-jjy36c.svelte-jjy36c {
+    display: inline-block;
+    color: white;
+    border-radius: 0.15em;
+    background-color: black;
+    transition: 0.15s ease-in-out
+}
+
+.join-link.svelte-jjy36c.svelte-jjy36c:hover {
+    background-color: #0d7dd9
+}
