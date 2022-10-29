@@ -1,0 +1,8 @@
+.join-link.svelte-jjy36c.svelte-jjy36c  {
+    display: inline-block;
+    color: white;
+    border-radius: 0.15em;
+    background-color: rgb(102, 102, 102); /*background-color: black;*/ /*TO ENABLE BUTTON REPLACE COLOUR*/
+    transition: 0.15s ease-in-out;
+    pointer-events: none; /*pointer-events: none;*/ /*TO ENABLE BUTTON REMOVE THIS*/
+}
