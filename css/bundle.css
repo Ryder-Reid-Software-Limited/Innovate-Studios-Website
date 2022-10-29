@@ -205,7 +205,7 @@ section.svelte-jjy36c.svelte-jjy36c {
 }
 
 .community-bg.svelte-jjy36c.svelte-jjy36c {
-    background: #eeeeee;
+    background: rgb(142, 141, 141);
     z-index: 2
 }
 
@@ -388,12 +388,13 @@ section.svelte-jjy36c.svelte-jjy36c {
     z-index: -1
 }
 
-.join-link.svelte-jjy36c.svelte-jjy36c {
+.join-link.svelte-jjy36c.svelte-jjy36c  {
     display: inline-block;
     color: white;
     border-radius: 0.15em;
-    background-color: black;
-    transition: 0.15s ease-in-out
+    background-color: rgb(102, 102, 102); /*background-color: black;*/ /*TO ENABLE BUTTON REPLACE COLOUR*/
+    transition: 0.15s ease-in-out;
+    pointer-events: none; /*pointer-events: none;*/ /*TO ENABLE BUTTON REMOVE THIS*/
 }
 
 .join-link.svelte-jjy36c.svelte-jjy36c:hover {
