@@ -36,7 +36,7 @@
 }
 
 .parallax-hero-banner.svelte-jjy36c.svelte-jjy36c {
-    background-image: url(../images/ssb.png);
+    background-image: url(../images/RobloxScreenShot20221122_172347161.png);
     filter: brightness(0.2);
     object-fit: cover;
     height: 100%;
@@ -172,7 +172,7 @@ section.svelte-jjy36c.svelte-jjy36c {
 
 .games-bg.svelte-jjy36c .bedwars-card.svelte-jjy36c::before {
     content: " ";
-    background-image: linear-gradient(3deg, rgba(0, 0, 0, 0.5) 30%, rgba(255, 255, 255, 0) 60%), url(../images/Thumbnail1.png);
+    background-image: linear-gradient(3deg, rgba(0, 0, 0, 0.5) 30%, rgba(255, 255, 255, 0) 60%), url(../images/awokencoming\ soon.png);
     filter: saturate(1.5);
     background-position: center center;
     background-repeat: no-repeat;
@@ -302,7 +302,7 @@ section.svelte-jjy36c.svelte-jjy36c {
 .section-title-container.svelte-jjy36c .section-title.svelte-jjy36c {
     text-transform: uppercase;
     font-weight: bold;
-    color: #0d7dd9;
+    color: #7F01FA;
     font-size: 1.25rem
 }
 
@@ -398,5 +398,5 @@ section.svelte-jjy36c.svelte-jjy36c {
 }
 
 .join-link.svelte-jjy36c.svelte-jjy36c:hover {
-    background-color: #0d7dd9
+    background-color: #7F01FA
 }

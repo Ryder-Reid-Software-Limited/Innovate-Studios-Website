@@ -2,7 +2,7 @@
 @import "https://cdn.jsdelivr.net/npm/@creativebulma/bulma-tooltip@1.2.0/dist/bulma-tooltip.min.css";
 
 .text-easy-red {
-	color: #0d7dd9
+	color: #7F01FA
 }
 
 hr {
@@ -18,8 +18,8 @@ a {
 }
 
 a:hover {
-	color: #0d7dd9;
-	fill: #0d7dd9;
+	color: #7F01FA;
+	fill: #7F01FA;
 }
 
 body {
