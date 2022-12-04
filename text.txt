@@ -6,3 +6,17 @@
     transition: 0.15s ease-in-out;
     pointer-events: none; /*pointer-events: none;*/ /*TO ENABLE BUTTON REMOVE THIS*/
 }
+
+
+<p id="demo"></p>
+	<section class="jobs-bg section is-medium has-text-centered is-vcentered svelte-jjy36c">
+		<div class="jobs-parallax-bg svelte-jjy36c"></div>
+		<div class="container">
+			<div class="content">
+			  </div>
+			<p class="is-size-3">Awoken will be coming in <span class="text-easy-red">2023!</span> Be one of many to Test the Beta<span class="text-easy-red">!</span></p> <!--<p class="is-size-3">Awoken is coming <span class="text-easy-red">soon!</span> Be one of many to Test the Beta<span class="text-easy-red">!</span></p>-->
+			<a href="https://forms.gle/dnPfh54i7cHAoLkc6" target="_blank" 
+			class="join-link px-6 py-4 mt-6 is-size-5 svelte-jjy36c">Application Coming Soon</a> <!--<a href="https://forms.gle/dnPfh54i7cHAoLkc6" target="_blank" 
+				class="join-link px-6 py-4 mt-6 is-size-5 svelte-jjy36c">Apply Now</a>-->
+		</div>
+	</section>
