@@ -170,9 +170,11 @@ section.svelte-jjy36c.svelte-jjy36c {
     border-radius: 0.25rem 0.25rem 0px 0px !important
 }
 
+/* Games Images */
+
 .games-bg.svelte-jjy36c .bedwars-card.svelte-jjy36c::before {
     content: " ";
-    background-image: linear-gradient(3deg, rgba(0, 0, 0, 0.5) 30%, rgba(255, 255, 255, 0) 60%), url();
+    background-image: linear-gradient(3deg, rgba(0, 0, 0, 0.5) 30%, rgba(255, 255, 255, 0) 60%), url("../images/buildyoursolar.png");
     filter: saturate(1.5);
     background-position: center center;
     background-repeat: no-repeat;
